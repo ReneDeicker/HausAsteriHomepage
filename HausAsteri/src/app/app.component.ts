@@ -16,3 +16,26 @@ export class AppComponent {
     this.globals.windowWidth = event.target.innerWidth;
   }
 }
+/*
+//Default
+
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+
+//Modified
+
+  "scripts": {
+    "ng": "ng",
+    "start": "node server.js",
+    "build": "ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+
+*/
