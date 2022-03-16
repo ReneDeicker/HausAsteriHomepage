@@ -1,0 +1,12 @@
+
+.ratio-4-3{
+  width:100%;
+  position:relative;
+  background:url() 50% 50% no-repeat;
+  background-size:cover;
+}
+.ratio-4-3:before{
+    display:block;
+    content:"";
+    padding-top:75%;
+}
